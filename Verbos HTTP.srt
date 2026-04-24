@@ -1,0 +1,147 @@
+1
+00:00:00,450 --> 00:00:01,990
+Riley quer ver quem está escalado pra obra
+
+2
+00:00:01,990 --> 00:00:02,390
+hoje.
+
+3
+00:00:02,630 --> 00:00:04,430
+Vamos dar um GET em barra employees.
+
+4
+00:00:04,870 --> 00:00:06,770
+Rápido, sem bagunça, só queremos ler o que
+
+5
+00:00:06,770 --> 00:00:07,370
+já está lá.
+
+6
+00:00:08,010 --> 00:00:09,470
+Gente, temos um novo contrato.
+
+7
+00:00:09,650 --> 00:00:10,830
+Se a gente não der o POST agora
+
+8
+00:00:10,830 --> 00:00:12,530
+em Slash Suppliers, o estoque vai acabar.
+
+9
+00:00:12,770 --> 00:00:14,570
+E se os campos obrigatórios estiverem vazios?
+
+10
+00:00:14,770 --> 00:00:15,810
+E se o servidor explodir?
+
+11
+00:00:16,110 --> 00:00:17,550
+Olha o estado dessa informação.
+
+12
+00:00:17,790 --> 00:00:19,050
+Está completamente datada.
+
+13
+00:00:19,230 --> 00:00:20,290
+Não vou nem tentar consertar.
+
+14
+00:00:20,450 --> 00:00:21,950
+Vamos dar um PUT em Veículo 101 e
+
+15
+00:00:21,950 --> 00:00:23,770
+substituir esse objeto horroroso por um novinho.
+
+16
+00:00:24,050 --> 00:00:25,190
+Não precisa de tanto drama.
+
+17
+00:00:25,450 --> 00:00:26,550
+Eu só vou atualizar um campo.
+
+18
+00:00:26,550 --> 00:00:27,890
+O status do pagamento.
+
+19
+00:00:28,050 --> 00:00:29,910
+É só um PATCH em Rare Expenses Air45.
+
+20
+00:00:30,410 --> 00:00:31,750
+Pronto, o resto continua igual.
+
+21
+00:00:32,230 --> 00:00:33,210
+Cancelaram o projeto?
+
+22
+00:00:33,490 --> 00:00:34,570
+Então apaga tudo.
+
+23
+00:00:34,770 --> 00:00:37,130
+DELETE em Air Projects em 99 agora.
+
+24
+00:00:37,370 --> 00:00:38,950
+Não quero ver nem o rastro disso no
+
+25
+00:00:38,950 --> 00:00:39,810
+meu banco de dados.
+
+26
+00:00:40,230 --> 00:00:42,190
+Antes de sair fazendo qualquer coisa, alguém aqui
+
+27
+00:00:42,190 --> 00:00:43,170
+sabe o que esse endpoint permite?
+
+28
+00:00:43,590 --> 00:00:45,550
+Eu vou dar um OPTIONS em Air Projects.
+
+29
+00:00:45,610 --> 00:00:47,270
+Vamos descobrir quais métodos são aceitos antes de
+
+30
+00:00:47,270 --> 00:00:48,010
+causar confusão.
+
+31
+00:00:48,050 --> 00:00:49,290
+Não é preciso puxar tudo novamente.
+
+32
+00:00:49,570 --> 00:00:50,930
+Eu só quero dar uma conferida rápida.
+
+33
+00:00:51,030 --> 00:00:52,350
+Vou mandar um HEAD em Jet Employees pra
+
+34
+00:00:52,350 --> 00:00:53,430
+ver se os dados estão disponíveis.
+
+35
+00:00:53,490 --> 00:00:54,290
+Se mudou alguma coisa.
+
+36
+00:00:54,470 --> 00:00:55,330
+Sem trazer o corpo inteiro.
+
+37
+00:00:55,530 --> 00:00:55,750
+Ok.
